@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp8.0; netcoreapp2.0; net471</TargetFrameworks>
+    <TargetFrameworks>netcoreapp8.0</TargetFrameworks>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>James Forshaw</Authors>
     <Description>Command Line Interface CANAPE.Core network library.</Description>

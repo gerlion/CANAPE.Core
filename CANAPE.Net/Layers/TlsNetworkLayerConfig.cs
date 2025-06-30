@@ -40,8 +40,8 @@ namespace CANAPE.Net.Layers
         /// <param name="disableServer">If set to <c>true</c> disable server.</param>
         public TlsNetworkLayerConfig(bool disableClient, bool disableServer)
         {
-            ClientProtocol = disableClient ? SslProtocols.None : SslProtocols.Tls;
-            ServerProtocol = disableServer ? SslProtocols.None : SslProtocols.Tls;
+            ClientProtocol = disableClient ? SslProtocols.None : SslProtocols.None;
+            ServerProtocol = disableServer ? SslProtocols.None : SslProtocols.None;
             _clientCertificates = new List<X509Certificate2>();
             _disableClient = disableClient;
             _disableServer = disableServer;
